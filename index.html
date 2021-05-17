@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <Style>
+        body{
+            background-color:azure;
+        }
+        .btn{
+            padding: 8px;
+            background-color:cadetblue;
+            color: aliceblue;
+            border: 1px solid cadetblue;
+            box-shadow: 2px 2px 2px black;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+    </Style>
+</head>
+<body>
+    <header><h1 style="text-align: center;">Calculator</h1></header>
+    <form action="/sum" method="post">
+        <input class="" type="text" name="num1" placeholder="First Number">
+        <input class="" type="text" name="num2" placeholder="Second Number">
+        <button class="btn" type="submit" name="submit">Sum</button>
+    </form>
+    <form action="/multiply" method="post">
+        <input class="" type="text" name="num1" placeholder="First Number">
+        <input class="" type="text" name="num2" placeholder="Second Number">
+        <button class="btn" type="submit" name="submit">Multiply</button>
+    </form>
+    <form action="/division" method="post">
+        <input class="" type="text" name="num1" placeholder="First Number">
+        <input class="" type="text" name="num2" placeholder="Second Number">
+        <button class="btn" type="submit" name="submit">Division</button>
+    </form>
+    <form action="/substraction" method="post">
+        <input class="" type="text" name="num1" placeholder="First Number">
+        <input class="" type="text" name="num2" placeholder="Second Number">
+        <button class="btn" type="submit" name="submit">Substraction</button>
+    </form>
+
+</body>
+</html>

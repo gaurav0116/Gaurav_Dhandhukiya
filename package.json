@@ -1,0 +1,16 @@
+{
+  "name": "project_cal",
+  "version": "1.0.0",
+  "description": "This is My First Node & Express server for Projact_calculator",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Gaurav Dhandhukiya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
